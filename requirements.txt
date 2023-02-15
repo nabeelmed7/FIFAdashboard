@@ -1,7 +1,6 @@
 plotly
 dash
 dash_bootstrap_components
-dash.dependencies
 pandas
 matplotlib.pyplot
 seaborn
