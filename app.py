@@ -8,6 +8,22 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style(style='darkgrid')
 
+import os
+import pandas as pd
+from glob import glob
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
+import plotly.graph_objs as go
+import plotly.express as px
+from dash import html, dash, dcc
+import dash_bootstrap_components as dbc
+from dash.dependencies import Input,Output
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import base64
+sns.set_style(style='darkgrid')
+
 fifa_22 = pd.read_csv('players_22.csv', low_memory=False)
 
 def most_represented_countries(df):
