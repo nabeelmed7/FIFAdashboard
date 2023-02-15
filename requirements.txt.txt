@@ -1,0 +1,8 @@
+plotly.graph_objs
+plotly.express
+dash
+dash_bootstrap_components
+dash.dependencies
+pandas
+matplotlib.pyplot
+seaborn
