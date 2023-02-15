@@ -384,7 +384,7 @@ def wages_sunburst(df):
 # import dash
 # dash.register_page(__name__)
 
-app = dash.Dash(external_stylesheets = [dbc.themes.BOOTSTRAP])
+app = dash.Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP])
 
 server = app.server
 
