@@ -19,6 +19,8 @@ fifa_22 = pd.read_csv('players_22.csv', low_memory=False)
 
 app = dash.Dash(external_stylesheets = [dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 top = dbc.Row([    dbc.Col([        html.Img(src='https://gamingtrend.com/wp-content/uploads/2021/10/FIFA-22.jpg', height='50px', 
                                              style={'display': 'block', 'margin': 'auto'})    ], width={'size': 2, 'offset': 5}),
 ], style={'background-color': 'rgba(241, 229, 172)', 'padding': '10px'})
