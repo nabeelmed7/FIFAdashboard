@@ -1,5 +1,4 @@
-plotly.graph_objs
-plotly.express
+plotly
 dash
 dash_bootstrap_components
 dash.dependencies
