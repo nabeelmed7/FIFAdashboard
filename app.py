@@ -8,12 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style(style='darkgrid')
 
-from ipynb.fs.full.functions import create_polarcharts, get_most_valuable, get_most_wages_paid, most_represented_countries, get_highest_agg_overall, get_highest_mean_overall, get_stat_list, get_position, get_age_clubs, get_age_countries, get_stats_mvr, messivsronaldo, cleaning, positions_league, categorizing, wages_sunburst
-
-
 fifa_22 = pd.read_csv('players_22.csv', low_memory=False)
-
-
 
 def most_represented_countries(df):
     countries = df['nationality_name'].value_counts().nlargest(10)
